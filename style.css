@@ -1,0 +1,54 @@
+#main_div{
+    position: absolute;
+ height: 100%;
+ width: 100%; 
+    background-image: url(./calculator_img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#cal_div{
+    height: 80vh;
+    width: 70vh;
+    /* background-color: rgba(0, 255, 255, 0.146); */
+    margin:auto;
+    border: 3px solid yellow;
+    border-radius: 0px 0px 10px 10px;
+}
+#input-el{
+    height: 70px;
+    width: 69vh;
+    font-size: 50px;
+    background-color: rgb(30, 245, 245);
+    color: rgb(0, 0, 0);
+}
+button{
+    margin-top: 13px;
+    height: 70px;
+    width: 24%;
+    font-size: 30px;
+   border: 2px solid red;
+   border-radius: 20px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+}
+button:hover{
+    background-color: #4CAF50;
+    color: white;
+  }
+#ac-btn{
+  width: 213px;
+}
+#equal-btn{
+    width: 213px;
+  }
+#equal-btn:hover{
+    background-color: greenyellow;
+    color: red;
+}
+#del-btn:hover{
+    background-color: red;
+}
+
+ 
